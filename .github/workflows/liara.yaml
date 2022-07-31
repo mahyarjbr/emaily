@@ -16,4 +16,4 @@ jobs:
           LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
         run: |
           npm i -g @liara/cli@2
-          liara deploy --app="https://emaily.iran.liara.run" --api-token="$LIARA_TOKEN" --region iran --detach
+          liara deploy --app="emaily" --api-token="$LIARA_TOKEN" --region iran --detach
